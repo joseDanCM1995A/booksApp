@@ -1,0 +1,19 @@
+node
+    -express -- servidor --
+    -multer -- caarga de imágenes en el server --
+    -monogoose -- interface para la app y la bd --
+    -morgan -- seguimiento de peticiones http --
+    -dotenv -- variables de entorno --
+    -cross-env
+    -cors -- comunicación para el serve del front y del back --
+
+front
+-webpack 
+-webpack-cli 
+-html-webpack-plugin 
+-css-loader 
+-style-loader 
+-mini-css-extract-plugin 
+-webpack-dev-server 
+-timeago.js  
+
