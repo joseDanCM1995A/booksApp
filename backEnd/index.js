@@ -14,7 +14,7 @@ const app = express();
 require('./db');
 
 // settings
-app.set('port', 3000); // la variable de entorno es para cachar el puerto que nos dará heroku
+app.set('port', process.env.PORT || 3000); // la variable de entorno es para cachar el puerto que nos dará heroku
 
 //middlewares
 app.use(morgan('dev'));
